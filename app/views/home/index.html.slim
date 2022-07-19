@@ -1,0 +1,49 @@
+= render 'layouts/navbar'
+main role="main"
+  section.jumbotron.text-center
+    .container
+      h1.jumbotron-heading Bem Vindos
+      p.lead.text-muted Escolha o ministério o qual você deseja se inscrever, clicando em um dos cards abaixo.
+      / p
+      /   a.btn.btn-primary.my-2 href="#"  Main call to action
+      /   a.btn.btn-secondary.my-2 href="#"  Secondary action
+  .album.py-5.bg-light
+    .container
+      .row
+        .col-md-4
+          .card.mb-4.box-shadow
+            img.card-img-top alt=("Card image cap") data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" /
+            .card-body
+              p.card-text Pequenos Grupos
+              .d-flex.justify-content-between.align-items-center
+                .btn-group
+                  button.btn.btn-sm.btn-outline-secondary type="button"  View
+                small.text-muted 9 mins
+        .col-md-4
+          .card.mb-4.box-shadow
+            img.card-img-top alt=("Card image cap") data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" /
+            .card-body
+              p.card-text Checkin
+              .d-flex.justify-content-between.align-items-center
+                .btn-group
+                  button.btn.btn-sm.btn-outline-secondary type="button"  View
+                small.text-muted 9 mins
+        .col-md-4
+          .card.mb-4.box-shadow
+            img.card-img-top alt=("Card image cap") data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" /
+            .card-body
+              p.card-text Batismo
+              .d-flex.justify-content-between.align-items-center
+                .btn-group
+                  button.btn.btn-sm.btn-outline-secondary type="button"  View
+                small.text-muted 9 mins
+        .col-md-4
+          .card.mb-4.box-shadow
+            img.card-img-top alt=("Card image cap") data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" /
+            .card-body
+              p.card-text Consolidar
+              .d-flex.justify-content-between.align-items-center
+                .btn-group
+                  button.btn.btn-sm.btn-outline-secondary type="button"  View
+                small.text-muted 9 mins
+= render 'layouts/footer'
