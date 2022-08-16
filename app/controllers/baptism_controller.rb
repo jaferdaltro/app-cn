@@ -1,0 +1,2 @@
+class BaptismController < ApplicationController
+end

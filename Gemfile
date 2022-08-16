@@ -9,6 +9,7 @@ gem 'importmap-rails' # Use JavaScript with ESM import maps [https://github.com/
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
+gem 'roo', '~> 2.9'
 gem 'sassc-rails' # Use Sass to process CSS
 gem 'simple_form', '~> 5.1'
 gem 'slim-rails', '~> 3.5', '>= 3.5.1'
